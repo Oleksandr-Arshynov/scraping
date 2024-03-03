@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scraping"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Arshynov <oleksandrarshynov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scrapy = "^2.11.1"
+itemadapter = "^0.8.0"
+mongoengine = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
